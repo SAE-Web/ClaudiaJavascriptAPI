@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+$white:rgb(255, 255, 255);
+$colour:#8b008b;
+$orange:rgb(255, 172, 18);
+$green: #2cc28e;
+$greenin: #3b6a50;
+$gray:rgba(211, 211, 211, 0.338);
+$background-image: linear-gradient(306deg, #1d9aaf 0%, #ddd721 74%);
+$limon:  #65645b;
+$black:black;
+
+@import "nav";
+@import "menu";
+@import "footer";
+@import "article";
+
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
