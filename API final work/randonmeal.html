@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/623445ec2f.js" crossorigin="anonymous"></script>
+    <title>The Meal DB</title>
+</head>
+
+<body>
+<!-------------------------- Audio-------------------------->
+<audio autoplay>
+    <source src="Warm-Memories-Emotional-Inspiring-Piano.mp3"  type="audio/mpeg">
+  </audio>
+  <!----------------------Nav with Animation------------------------->
+ 
+  <section class="navin">
+    <div class="topnav" id="myTopnav">
+        <a class="logo"  href="index.html">Meal Tube DB<a>
+        <a class="link" href="index.html">Recipe</a>
+        <a href="randonmeal.html">Random Meals</a> 
+        <a href="fullmeal.html">Japanese Recipe</a>
+        <a href="dessert.html">Dessert</a> 
+        <a href="javascript:void(0);" class="icon"  onclick="myFunction()">&#9776;</a>
+      </div>
+    </section>
+
+
+      <article>
+        <p>Here you gonna found a random meal recipes from random countries in every click
+        </p>
+    </article>
+       <!---------------------API JAvascript------------------------->
+
+        <main id="searchmealbyname" class="searchmealbyname">
+     </main>
+
+     <footer class="footer mt-5">
+        <div class="container">
+            <div class="copyright">
+   <p>Powered by: <a
+                href="https://themealdb.com/api.php">themealdb.com/api.php</a>
+        </p>
+                &copy; Copyright<strong>
+                    <span>The Meal DB</span>
+                </strong>.All rights Reserved
+            </div>
+            <div class="credits">
+                Designed by Claudia del Carmo
+            </div>
+        </div>
+    </footer>
+    </body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> 
+<script src="js/script.js"></script>
+<script src="js/randommeal.js" ></script>
+
+</html>
